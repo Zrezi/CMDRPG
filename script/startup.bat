@@ -189,7 +189,7 @@ goto SetNameAndRace
 REM Closes CMDRPG, also deleting any left over temporary files in case some were left.
 :Exit
 echo.
-del "C:\Users\%USERNAME%\Desktop\CMDRPG\temp\*.dll"
+del "C:\Users\%USERNAME%\Desktop\CMDRPG\temporary\*.dll"
 echo.
 echo Closing Command RPG...
 timeout /t 2 /nobreak>NUL
